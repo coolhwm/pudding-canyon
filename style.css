@@ -1,0 +1,14 @@
+:root { --ink:#2b1d12; }
+* { box-sizing: border-box; }
+html, body { margin:0; height:100%; background:#1a120c; font-family: Trebuchet MS, PingFang SC, Noto Sans SC, sans-serif; }
+body { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; padding:12px; }
+h1 { margin:0; color:#fff7d6; font-size:22px; letter-spacing:1px; text-shadow: 2px 3px 0 #000; }
+p.hint { margin:0; color:#ffe7a8; font-size:14px; }
+#wrap { position:relative; border:6px solid #3a2416; border-radius:18px; box-shadow: 0 12px 0 #120a06, 0 0 0 4px #ffd36a; overflow:hidden; }
+canvas { display:block; background:#87e0ff; width:min(960px, 96vw); height:auto; }
+#hud { position:absolute; left:12px; top:10px; color:#2b1d12; font-weight:700; text-shadow: 1px 1px 0 #fff; }
+#toast { position:absolute; left:50%; bottom:18px; transform:translateX(-50%); background:#fff7d6; border:3px solid #2b1d12; border-radius:999px; padding:8px 16px; font-weight:800; opacity:0; transition:opacity .2s; pointer-events:none; white-space:nowrap; }
+#win { display:none; position:absolute; inset:0; background:rgba(255,247,214,.92); align-items:center; justify-content:center; flex-direction:column; gap:10px; text-align:center; }
+#win.show { display:flex; }
+#win h2 { margin:0; font-size:36px; }
+button { font: inherit; font-weight:800; padding:10px 18px; border:3px solid #2b1d12; border-radius:12px; background:#ffd36a; cursor:pointer; }
