@@ -1,12 +1,27 @@
-# 布丁峡谷
+<p align="center">
+  <img src="assets/icon.png" width="160" alt="布丁峡谷">
+</p>
 
-给 7 岁小朋友的横版过关小游戏。路牌全在说谎，陷阱反直觉，试错才是玩法。
+<h1 align="center">布丁峡谷</h1>
 
-现在有第一关：**请勿相信路牌**。
+<p align="center">
+  给 7 岁小朋友的横版过关小游戏。<br>
+  路牌会说谎，陷阱反直觉，试错才是玩法。
+</p>
+
+<p align="center">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-yellow">
+  <img alt="html5" src="https://img.shields.io/badge/HTML5%20Canvas-ffd36a?logo=html5&logoColor=white">
+  <img alt="no build" src="https://img.shields.io/badge/build-none-lightgrey">
+</p>
+
+<p align="center">
+  <img src="docs/screenshot.png" width="720" alt="第一关画面">
+</p>
 
 ## 怎么玩
 
-用浏览器直接打开 `index.html`，不用安装、不用构建。
+用浏览器直接打开 [`index.html`](index.html)，不用安装、不用构建。
 
 | 操作 | 按键 |
 | --- | --- |
@@ -16,7 +31,7 @@
 
 左上角是试错次数。掉下去或碰到真危险会回到附近安全的地方。
 
-## 第一关设计
+## 第一关 · 请勿相信路牌
 
 看上去危险的往往没事，看上去像终点的往往是画的。
 
@@ -33,14 +48,21 @@
 
 ```
 pudding-canyon/
-├── index.html   # 页面和 HUD
-├── style.css    # 窗口、提示、通关层
-├── game.js      # 第一关逻辑、物理、绘制
-└── level.json   # 关卡宽度等基础数据
+├── index.html              # 页面和 HUD
+├── style.css               # 窗口、提示、通关层
+├── game.js                 # 关卡逻辑、物理、绘制
+├── level.json              # 关卡宽度等基础数据
+├── assets/
+│   ├── icon.png            # 项目图标
+│   ├── favicon.png         # 浏览器图标
+│   └── apple-touch-icon.png
+└── docs/
+    ├── screenshot.png      # README 截图
+    └── social.jpg          # 社交预览图
 ```
 
 纯静态：`index.html` + `style.css` + `game.js`，没有依赖。
 
 ## 许可
 
-源码按仓库现状使用。欢迎改、欢迎加关。
+[MIT](LICENSE)
