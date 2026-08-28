@@ -11,4 +11,7 @@ canvas { display:block; background:#87e0ff; width:min(960px, 96vw); height:auto;
 #win { display:none; position:absolute; inset:0; background:rgba(255,247,214,.92); align-items:center; justify-content:center; flex-direction:column; gap:10px; text-align:center; }
 #win.show { display:flex; }
 #win h2 { margin:0; font-size:36px; }
+#win .btns { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; }
 button { font: inherit; font-weight:800; padding:10px 18px; border:3px solid #2b1d12; border-radius:12px; background:#ffd36a; cursor:pointer; }
+#next { background:#b8e986; }
+#back1 { background:#ffb0c4; display:none; }

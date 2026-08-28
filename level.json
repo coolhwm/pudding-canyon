@@ -1,4 +1,7 @@
 {
-  "levelW": 3200,
-  "ground": 460
+  "ground": 460,
+  "levels": [
+    { "id": 1, "levelW": 3200 },
+    { "id": 2, "levelW": 4600 }
+  ]
 }
