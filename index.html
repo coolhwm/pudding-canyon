@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>布丁峡谷 · 第一关</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>布丁峡谷 · 第一关：请勿相信路牌</h1>
+  <p class="hint">方向键 / A D 走路，空格或上键跳跃。路牌都在说谎。</p>
+  <div id="wrap">
+    <canvas id="c" width="960" height="540"></canvas>
+    <div id="hud">试错：<span id="fails">0</span></div>
+    <div id="toast"></div>
+    <div id="win">
+      <h2>回家啦！</h2>
+      <div>毛线球才是大门。路牌？全是骗子。</div>
+      <button id="again">再玩一次</button>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
