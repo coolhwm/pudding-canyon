@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="160" alt="布丁峡谷">
+  <img src="assets/icon.svg" width="128" alt="布丁峡谷">
 </p>
 
 <h1 align="center">布丁峡谷</h1>
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/screenshot.png" width="720" alt="第一关画面">
+  <img src="docs/cover.svg" width="720" alt="布丁峡谷">
 </p>
 
 ## 怎么玩
@@ -48,17 +48,13 @@
 
 ```
 pudding-canyon/
-├── index.html              # 页面和 HUD
-├── style.css               # 窗口、提示、通关层
-├── game.js                 # 关卡逻辑、物理、绘制
-├── level.json              # 关卡宽度等基础数据
-├── assets/
-│   ├── icon.png            # 项目图标
-│   ├── favicon.png         # 浏览器图标
-│   └── apple-touch-icon.png
-└── docs/
-    ├── screenshot.png      # README 截图
-    └── social.jpg          # 社交预览图
+├── index.html         # 页面和 HUD
+├── style.css          # 窗口、提示、通关层
+├── game.js            # 关卡逻辑、物理、绘制
+├── level.json         # 关卡宽度等基础数据
+├── LICENSE            # MIT
+├── assets/icon.svg    # 项目图标 / favicon
+└── docs/cover.svg     # README 封面
 ```
 
 纯静态：`index.html` + `style.css` + `game.js`，没有依赖。
